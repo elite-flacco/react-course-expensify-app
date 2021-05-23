@@ -17,9 +17,12 @@ import { startLogin } from '../actions/auth';
 // }
 
 export const LoginPage = ({ startLogin }) => (
-    <div>
-        <h1>Please log in!</h1>
-        <button onClick={startLogin}>Log in</button>
+    <div className="box-layout">
+        <div className="box-layout__box">
+            <h1 className="box-layout__title">Expensify</h1>
+            <button onClick={startLogin} className="button">Login with Google</button>
+        </div>
+
     </div>
 )
 

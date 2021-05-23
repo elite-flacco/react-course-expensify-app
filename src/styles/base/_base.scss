@@ -1,11 +1,17 @@
 // rem
+* {
+    box-sizing: border-box;
+}
+
 html {
     font-size: 62.5%;
 }
 
 body {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: $dark-gray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: $m-size;
+    line-height: 1.6;
 }
 
 button {
